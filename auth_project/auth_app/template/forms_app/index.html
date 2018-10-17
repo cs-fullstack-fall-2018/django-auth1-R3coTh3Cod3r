@@ -1,0 +1,11 @@
+{# Testing here #}
+{% load static %}
+<link rel="stylesheet" href="{% static 'auth_app/bootstrap.css' %}">
+<div class="jumbotron">
+    <p>The following is auth_app:</p>
+    {% if users.is_authenticated %}
+    User: {{users.get_username}}
+        {% else %}}
+
+</div>
+{% if blog_list
